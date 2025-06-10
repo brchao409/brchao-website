@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/brchao-website/static/css/main.d67b8486.css",
-    "main.js": "/brchao-website/static/js/main.d32221ce.js",
+    "main.js": "/brchao-website/static/js/main.3d0744bb.js",
     "static/css/64.bba8fa55.chunk.css": "/brchao-website/static/css/64.bba8fa55.chunk.css",
     "static/js/64.56dc6704.chunk.js": "/brchao-website/static/js/64.56dc6704.chunk.js",
     "static/css/769.b3cbb36b.chunk.css": "/brchao-website/static/css/769.b3cbb36b.chunk.css",
@@ -24,7 +24,7 @@
     "index.html": "/brchao-website/index.html",
     "static/media/talksCardBack.svg": "/brchao-website/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
     "main.d67b8486.css.map": "/brchao-website/static/css/main.d67b8486.css.map",
-    "main.d32221ce.js.map": "/brchao-website/static/js/main.d32221ce.js.map",
+    "main.3d0744bb.js.map": "/brchao-website/static/js/main.3d0744bb.js.map",
     "64.bba8fa55.chunk.css.map": "/brchao-website/static/css/64.bba8fa55.chunk.css.map",
     "64.56dc6704.chunk.js.map": "/brchao-website/static/js/64.56dc6704.chunk.js.map",
     "769.b3cbb36b.chunk.css.map": "/brchao-website/static/css/769.b3cbb36b.chunk.css.map",
@@ -32,6 +32,6 @@
   },
   "entrypoints": [
     "static/css/main.d67b8486.css",
-    "static/js/main.d32221ce.js"
+    "static/js/main.3d0744bb.js"
   ]
 }
