@@ -16,20 +16,17 @@ export default function Projects() {
 
   useEffect(() => {
     const getRepoData = () => {
-      fetch("/profile.json")
+      fetch("/brchao-website/profile.json")
         .then(result => {
-          if (result.ok) {
-            return result.json();
-          }
-          throw result;
+          console.log("Fetch result:", result);
+          return result.json();
         })
         .then(response => {
+          console.log("Parsed response:", response);
           setrepoFunction(response.data.user.pinnedItems.edges);
         })
-        .catch(function (error) {
-          console.error(
-            `${error} (because of this error, nothing is shown in place of Projects section. Also check if Projects section has been configured)`
-          );
+        .catch(error => {
+          console.error("Fetch failed:", error);
           setrepoFunction("Error");
         });
     };

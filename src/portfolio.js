@@ -23,10 +23,10 @@ const greeting = {
   username: "Brendan Chao",
   title: "Hi, I'm Brendan",
   subTitle: emoji(
-    "A passionate Data Analyst and Full Stack Developer 🚀 with experience in building web applications and data-driven systems using JavaScript, React, Node.js, MongoDB, and Python. I enjoy working on real-world projects involving data pipelines, interactive dashboards, and microservices. Skilled in transforming data into actionable insights and developing scalable solutions using modern frameworks and tools like Kafka, Redux, and Docker."
+    "A motivated AI and Machine Learning–focused Data Analytics graduate with experience developing end-to-end ML workflows, from data preprocessing and feature engineering to model training and evaluation. I enjoy applying machine learning techniques to real-world datasets and building scalable data pipelines that support experimentation and deployment. With a foundation in full-stack development, I am comfortable integrating models into data-driven systems and interactive dashboards using tools such as Python, Kafka, Docker, and cloud platforms."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1RyIpHL7s5FYqq6Um-bj3Y5lmczPLljrE/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1DeJ9JhSFQLBCV6NIhsUoJNYaOi70eXkp/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -46,14 +46,17 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle:
+    "AI & MACHINE LEARNING–FOCUSED DATA ANALYTICS GRADUATE BUILDING INTELLIGENT, DATA-DRIVEN SYSTEMS",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Develop machine learning workflows including data preprocessing, feature engineering, model training, and evaluation using Python and modern ML libraries"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ Build scalable data pipelines and streaming systems using SQL, Kafka, Pandas, and cloud-based data platforms"
+    ),
+    emoji(
+      "⚡ Integrate ML models into production-ready services and interactive dashboards using Docker, cloud infrastructure, and modern web frameworks"
     )
   ],
 
@@ -61,58 +64,83 @@ const skillsSection = {
 https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
+    // Core Languages
     {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
-    },
-    {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
-    },
-    {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
+      skillName: "Python",
+      fontAwesomeClassname: "fab fa-python"
     },
     {
       skillName: "JavaScript",
       fontAwesomeClassname: "fab fa-js"
     },
     {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
+      skillName: "SQL",
+      fontAwesomeClassname: "fas fa-database"
+    },
+
+    // Machine Learning & Data Science
+    {
+      skillName: "Machine Learning",
+      fontAwesomeClassname: "fas fa-brain"
     },
     {
-      skillName: "nodejs",
+      skillName: "scikit-learn",
+      fontAwesomeClassname: "fas fa-chart-line"
+    },
+    {
+      skillName: "Pandas",
+      fontAwesomeClassname: "fas fa-table"
+    },
+    {
+      skillName: "NumPy",
+      fontAwesomeClassname: "fas fa-calculator"
+    },
+    {
+      skillName: "PyTorch",
+      fontAwesomeClassname: "fas fa-network-wired"
+    },
+
+    // Data Engineering & Streaming
+    {
+      skillName: "Apache Kafka",
+      fontAwesomeClassname: "fas fa-stream"
+    },
+    {
+      skillName: "ETL Pipelines",
+      fontAwesomeClassname: "fas fa-project-diagram"
+    },
+
+    // Backend & Systems
+    {
+      skillName: "Node.js",
       fontAwesomeClassname: "fab fa-node"
     },
     {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
-    {
-      skillName: "sql-database",
+      skillName: "MongoDB",
       fontAwesomeClassname: "fas fa-database"
     },
     {
-      skillName: "aws",
+      skillName: "REST APIs",
+      fontAwesomeClassname: "fas fa-server"
+    },
+    {
+      skillName: "reactjs",
+      fontAwesomeClassname: "fab fa-react"
+    },
+
+    // Cloud & DevOps
+    {
+      skillName: "Docker",
+      fontAwesomeClassname: "fab fa-docker"
+    },
+    {
+      skillName: "AWS",
       fontAwesomeClassname: "fab fa-aws"
     },
     {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
+      skillName: "Kubernetes",
+      fontAwesomeClassname: "fas fa-cloud"
     },
-    {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
-    },
-    {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
-    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -123,23 +151,22 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      schoolName: "San Jose State University",
+      logo: require("./assets/images/san-jose-state-spartans-logo.png"),
+      subHeader: "M.S in Applied Data Intelligence",
+      duration: "August 2024 - May 2026 (Expected)",
+      desc: "Relevant Courses: Generative AI, Deep Learning, Distributed Systems, Big Data, Machine Learning",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Current GPA: 3.73",
       ]
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      schoolName: "San Jose State University",
+      logo: require("./assets/images/san-jose-state-spartans-logo.png"),
+      subHeader: "B.S in Computer Science",
+      duration: "August 2019 - May 2023",
+      desc: "Courses include: Object-Oriented Design, Advanced Python Programming, Software Development",
+      descBullets: ["GPA: 3.6", "Graduated with Cum Laude Honors"]
     }
   ]
 };
@@ -150,15 +177,23 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      Stack: "Python & Machine Learning",
+      progressPercentage: "85%"
     },
     {
-      Stack: "Backend",
+      Stack: "Data Analytics & Feature Engineering",
+      progressPercentage: "75%"
+    },
+    {
+      Stack: "Data Engineering & Streaming Systems",
       progressPercentage: "70%"
     },
     {
-      Stack: "Programming",
+      Stack: "Backend Systems & APIs",
+      progressPercentage: "65%"
+    },
+    {
+      Stack: "Cloud & Containerization",
       progressPercentage: "60%"
     }
   ],
@@ -168,7 +203,7 @@ const techStack = {
 // Work experience section
 
 const workExperiences = {
-  display: true, //Set it to true to show workExperiences Section
+  display: false, //Set it to true to show workExperiences Section
   experience: [
     {
       role: "Software Engineer",
